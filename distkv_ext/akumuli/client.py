@@ -23,8 +23,7 @@ async def cli():
 @click.argument("path", nargs=1)
 @click.pass_obj
 async def list_(obj, path):
-    """Emit the state as a YAML file.
-    """
+    """Emit the state as a YAML file."""
     path = P(path)
     await data_get(obj, obj.cfg.akumuli.prefix + path)
 
@@ -70,7 +69,7 @@ async def set_(obj, path, source, mode, attr, series, tags):
         try:
             k, v = x.split("=", 2)
         except ValueError:
-            raise click.UsageError("Tags must be key=value")
+            raise click.UsageError("Tags must be key=value") from None
         tagged[k] = v
 
     val = dict(source=source, series=series, tags=tagged, mode=mode.name)
@@ -156,8 +155,7 @@ async def server_(obj, name, host, port, delete):
 @click.argument("name", nargs=1)
 @click.pass_obj
 async def monitor(obj, name):
-    """Stand-alone task to monitor a single Akumuli tree
-    """
+    """Stand-alone task to monitor a single Akumuli tree"""
     from distkv_ext.akumuli.task import task
     from distkv_ext.akumuli.model import AkumuliRoot
 

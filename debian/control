@@ -2,7 +2,12 @@ Source: distkv-akumuli
 Maintainer: Matthias Urlichs <matthias@urlichs.de>
 Section: python
 Priority: optional
-Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 13)
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 13),
+  distkv (>= 0.50),
+  python3-anyio (>= 2),
+  python3-asks,
+  python3-asyncakumuli,
+
 Standards-Version: 3.9.6
 Homepage: https://github.com/smurfix/distakumuli
 
@@ -10,6 +15,8 @@ Package: distkv-akumuli
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends},
   distkv (>= 0.50),
+  python3-anyio (>= 2),
+  python3-asks,
   python3-asyncakumuli,
 Description: Link between DistKV and Akumuli
   Updates an Akumuli series whenever a DistKV value changes.
