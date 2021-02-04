@@ -9,7 +9,7 @@ Homepage: https://github.com/smurfix/distakumuli
 Package: distkv-akumuli
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends},
-  distkv,
+  distkv (>= 0.50),
   python3-asyncakumuli,
 Description: Link between DistKV and Akumuli
   Updates an Akumuli series whenever a DistKV value changes.
