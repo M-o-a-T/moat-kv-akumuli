@@ -2,6 +2,12 @@ distkv-akumuli (0.5.1-1) unstable; urgency=medium
 
   * Merge
 
+ -- Matthias Urlichs <matthias@urlichs.de>  Tue, 27 Sep 2022 16:12:12 +0200
+
+distkv-akumuli (0.5.1-1) unstable; urgency=medium
+
+  * Merge
+
  -- Matthias Urlichs <matthias@urlichs.de>  Tue, 27 Sep 2022 16:10:51 +0200
 
 distkv-akumuli (0.5.1-1) unstable; urgency=medium
