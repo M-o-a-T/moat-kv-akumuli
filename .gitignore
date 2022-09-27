@@ -1,3 +1,4 @@
+/build/
 /.pybuild/
 /dist/
 __pycache__
