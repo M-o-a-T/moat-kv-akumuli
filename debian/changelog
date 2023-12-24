@@ -1,6 +1,7 @@
-distkv-akumuli (0.8.1-2) unstable; urgency=medium
+moat-kv-akumuli (0.8.1-2) unstable; urgency=medium
 
   * Fix dependencies
+  * Fix naming
 
  -- Matthias Urlichs <matthias@urlichs.de>  Sun, 24 Dec 2023 16:51:00 +0100
 
