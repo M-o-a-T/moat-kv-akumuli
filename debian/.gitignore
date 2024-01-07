@@ -4,5 +4,5 @@
 /*.debhelper-build-stamp
 /*.substvars
 /debhelper-build-stamp
-/distkv-akumuli
-/distkv-akumuli@.service
+/moat-kv-akumuli
+/moat-kv-akumuli@.service
