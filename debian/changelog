@@ -1,3 +1,9 @@
+moat-kv-akumuli (0.8.4-1) unstable; urgency=medium
+
+  * Merge
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Mon, 22 Jan 2024 13:58:13 +0100
+
 moat-kv-akumuli (0.8.3-1) unstable; urgency=medium
 
   * Merge
